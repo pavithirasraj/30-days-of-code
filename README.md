@@ -1,2 +1,2 @@
 Day-1 <br/>
-Lists - intro <br/>
+Lists - intro, String slicing - intro <br/>
