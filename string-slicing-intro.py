@@ -12,6 +12,11 @@ new_s = s[::-1]
 # abc ==> cba | k = 2 ==> cb
 print(new_s[:k])
 
+# Print the last k values of a string - Simplified
+s = input().strip()
+k = int(input())
+print((s[::-1])[:k])
+
 # Skip last k values of a string and print the rest
 s = input().strip()
 k = int(input())
