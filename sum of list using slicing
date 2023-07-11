@@ -1,0 +1,6 @@
+# Sum of integers in list using slicing
+lst = list(map(int,input().split()))
+print(sum(lst))
+print(sum(lst[:5]))
+
+DEFINITION: Extracting a section of data
