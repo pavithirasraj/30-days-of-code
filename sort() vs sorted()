@@ -1,0 +1,13 @@
+# sort() vs sorted() 
+# sort() - original list gets sorted 
+# sort() will sort the list in-place
+# in-place sorting - sorting without any extra place required
+lst = list(map(int,input().split()))
+print(lst)
+lst.sort()
+print(lst)
+# sorted() will return a new sorted list leaving the original list unchanged
+lst1 = list(map(int,input().split()))
+print(lst1)
+lst2 = sorted(lst1)
+print(lst2)
