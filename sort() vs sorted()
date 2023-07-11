@@ -1,7 +1,8 @@
 # sort() vs sorted() 
 # sort() - original list gets sorted 
 # sort() will sort the list in-place
-# in-place sorting - sorting without any extra place required
+# in-place sorting - sorting without any extra place required - very efficient 
+# Quick sort follows in-place sorting
 lst = list(map(int,input().split()))
 print(lst)
 lst.sort()
