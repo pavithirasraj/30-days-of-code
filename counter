@@ -1,0 +1,22 @@
+
+from collections import Counter
+lst=list(map(str,input().split()))
+temp=Counter(lst)
+print(temp)
+
+
+
+-------------------------------------------------
+
+#individual frequency
+--------------------
+
+
+
+from collections import Counter
+lst=list(map(str,input().split()))
+c=input()
+temp=Counter(lst)
+print(temp)
+print(temp[c])
+
