@@ -1,0 +1,22 @@
+1. write a python program that generates 50 prime number
+------
+CODE:
+-----
+def prime(n):
+    return n>1 and all(n%i !=0 for i in range(2,int(n**0.5)+1))
+count=50
+pnum=[num for num in range(2,1000) if prime(num)][:count]
+print(pnum)
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. write  a python program to reverse string without loop or predefined functions like reverse()
+------
+CODE:
+------
+def rev(s):
+    return s if len(s)<=1 else s[-1]+rev(s[:-1])
+out=input()
+reverse=rev(out)
+print(reverse)
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+3. 
