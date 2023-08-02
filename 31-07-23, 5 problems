@@ -19,4 +19,50 @@ out=input()
 reverse=rev(out)
 print(reverse)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-3. 
+4. count repeated items in a string 
+--------
+CODE:
+--------
+string=input()
+counts={}
+for i in string:
+    if i in counts:
+        counts[i]+=1
+    else:
+        counts[i]=1 
+ 
+print(counts)
+
+--------
+INPUT:
+--------
+aaplee
+-------
+OUTPUT:
+-------
+{'a':2, 'p':1, 'l':1, 'e':2}
+-------------------------------------------------
+-------
+CODE:
+-------
+string=input()
+counts={}
+repeated=[]
+for i in string:
+    if i in counts:
+        if counts[i]==1:
+            repeated.append(i)
+        counts[i]+=1 
+    else:
+        counts[i]=1 
+print(repeated)
+
+-------
+INPUT:
+-------
+aaplee
+------
+OUTPUT:
+-------
+{'a','e'}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
