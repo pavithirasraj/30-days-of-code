@@ -1,0 +1,37 @@
+a)find minimum
+
+lst=[50,150,200,30,10,5,500,180,280,250]
+print(min(lst))
+----------------------------------------------
+b) find maximum
+print(max(lst))
+---------------------------------------------
+c) Remove first nd last element from the list and print the sum of the rest
+fl=lst[1:-1]
+print(fl)
+print(sum(fl))
+----------------------------------------------------
+d) remove middle 4 elements and print the sum of rest
+
+lst=[50,150,200,30,10,5,500,180,280,250]
+mv=len(lst)//2
+temp=(sum(lst[:mv-2]))
+temp1=(sum(lst[mv+2:]))
+a=temp+temp1
+print(a)
+--------
+Output: 1110
+--------
+
+
+----------------------------------------------------------------------------
+e)print the sum of second largest and second smallest from the list
+temp3=sorted(lst)
+print(temp3)
+temp4=temp3[1]
+print(temp4)
+temp5=temp3[8]
+print(temp5)
+temp6=temp4+temp5
+print(temp6)
+------------------------------------------------------------------------
